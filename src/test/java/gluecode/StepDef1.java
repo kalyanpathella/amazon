@@ -38,9 +38,9 @@ public class StepDef1
 	}
 
 	@When("Enter a valid product {string} in search box")
-	public void enter_a_valid_product_in_search_box(String productname)throws Exception
+	public void enter_a_valid_product_in_search_box(String name)throws Exception
 	{
-	    sh.home.enterProductNameInSearchBox(productname);
+	    sh.home.enterProductNameInSearchBox(name);
 	    Thread.sleep(3000);
 	}
 
